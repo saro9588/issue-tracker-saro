@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Theme>
           <NavBar />
-          <main style={{ padding: 20 }}>{children}</main>
+          <main className="p-5">{children}</main>
           <ThemePanel />
         </Theme>
       </body>

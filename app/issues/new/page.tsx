@@ -1,6 +1,5 @@
 "use client";
 import { Button, TextArea, TextField } from "@radix-ui/themes";
-import { Butterfly_Kids } from "next/font/google";
 import React from "react";
 
 const NewIssuePage = () => {

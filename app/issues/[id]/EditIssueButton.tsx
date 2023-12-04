@@ -1,15 +1,12 @@
-import { Issue } from "@prisma/client";
-import { Pencil1Icon } from "@radix-ui/react-icons";
 import { Button } from "@radix-ui/themes";
 import Link from "next/link";
-import React from "react";
+import { Pencil1Icon } from "@radix-ui/react-icons";
 
 const EditIssueButton = ({ issueId }: { issueId: number }) => {
   return (
     <Button>
       <Pencil1Icon />
-      <Link href={`/issues/${issueId}/edit`}></Link>
-      Edit Issue
+      <Link href={`/issues/${issueId}/edit`}> Edit Issue</Link>
     </Button>
   );
 };
